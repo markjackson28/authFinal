@@ -19,6 +19,6 @@ module.exports = async (req, res, next) => {
   }
 
   function _authError() {
-    next('Invalid Login');
+    next('Sorry, you are not authorized to do this!');
   }
 }

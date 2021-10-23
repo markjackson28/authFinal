@@ -12,7 +12,7 @@ const logger = require('./middleware/logger');
 
 // Importing routes
 const authRoutes = require('./auth/authRoutes');
-// const v1Routes = require('./api/apiRoutes');
+const v1Routes = require('./api/apiRoutes');
 
 const app = express();
 
@@ -25,7 +25,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use(authRoutes);
-// app.use('/api/apiRoutes', v1Routes);
+app.use('/api/apiRoutes', v1Routes);
 
 // Erroer Handlers
 app.use('*', notFound);
