@@ -32,13 +32,16 @@ router.delete('/:model/:id', bearer, permissions('delete'), handleDelete);
 
 async function handleGetAll(req, res) {
   let allRecords = await req.model.get();
-  res.status(200).json(allRecords);
+  let modelList = allRecords.map((item) => {
+    let list = `Title: ${item.name}, Rating: ${item.rating}`;
+    return list;
+  });
+  res.status(200).send(modelList);
 }
 
 async function handleGetOne(req, res) {
   const id = req.params.id;
   let theRecord = await req.model.get(id);
-  // console.log('inside suace', theRecord);
   res.status(200).json(theRecord);
 }
 
