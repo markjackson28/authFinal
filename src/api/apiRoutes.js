@@ -18,12 +18,6 @@ router.param('model', (req, res, next) => {
   }
 });
 
-// Users
-// User Oreo: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik9yZW8iLCJpYXQiOjE2MzUwMTczMDR9.k_wP2o8-9hYka037LjoSQXFly0zIWgk4mbAEPcsdHEs 
-// Writer Loba: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkxvYmEiLCJpYXQiOjE2MzUwMTczMjh9.xTM8uY6QR2P1X0l-AmK3XX_gtdE3JJMU_Yv7VCLaa-g
-// Editor Gibby: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkdpYmJ5IiwiaWF0IjoxNjM1MDE3MzQ2fQ.lMmub97I1txpCav8jvXO4BiPN-kw9ObBZUDNSgFKWxw
-// Admin Octane: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik9jdGFuZSIsImlhdCI6MTYzNTAxNzExM30.TIxZYl03e0O_xUUsK88kd-ooKQ53FhHB8mgE0wdMTFY
-
 router.get('/:model', basic, handleGetAll);
 router.get('/:model/:id', basic, handleGetOne);
 router.post('/:model', bearer, permissions('create'), handleCreate);

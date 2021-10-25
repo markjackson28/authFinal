@@ -39,9 +39,3 @@ module.exports = {
     });
   },
 };
-
-
-// Morty eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik1vcnR5IiwiaWF0IjoxNjM1MDMwMTAzfQ.3b8UfAC4rIOVQDpbOr3N6MqjSSdR5u7sqxzcvKwlu6U
-// Rick eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlJpY2siLCJpYXQiOjE2MzUwMzAxNTl9.KJiL2-n_td-LhvdPxR0XYmKoFaRYiYCbYdYCThCzZiw
-// Zorp eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlpvcnAiLCJpYXQiOjE2MzUwMzAxODR9.3fqI7-CYp4NiqTQjhHi14dEMinDe2FUJKFeD5KXPSM0
-// Doc eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkRvYyIsImlhdCI6MTYzNTAzMDIwNX0.3aGkwtUkp3aa9e7ksLhzJaKaBv4hWwUFJPmIOYdgll8
