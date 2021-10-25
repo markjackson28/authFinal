@@ -5,7 +5,7 @@
 ### Authors: Mark Thanadabouth and Jeremy Brazell
 
 #### Links and Resources
-<!-- [Deployed Link](https://mt-bearer-auth-dev.herokuapp.com/) -->
+[Deployed Link](https://authfinal-mark-jeremy.herokuapp.com/)
 
 ### Setup
 
