@@ -1,6 +1,6 @@
 # authFinal
 
-<!-- Add reqs -->
+Create a new application using your API Server and Authentication System
 
 ### Authors: Mark Thanadabouth and Jeremy Brazell
 
