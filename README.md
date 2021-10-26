@@ -23,7 +23,7 @@
   - Basic Auth
 - /users
   - Bearer Auth: Admin role only: view, update, create and delete
-- /movie
+- /api/apiRoutes/movie
   - Basic Auth: User can view movies
   - Bearer Auth: Writer can view and create movies
   - Bearer Auth: Editor can view, create, and update movies
